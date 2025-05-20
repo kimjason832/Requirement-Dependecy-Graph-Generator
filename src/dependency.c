@@ -1,4 +1,4 @@
-#include "dependency.h"
+#include "../include/dependency.h"
 
 MODULE_LIST createModuleList(int length, char *dependency_list_start[20], char *dependency_list_end[20]){
     // stub for createModuleList function, will be implemented in the future

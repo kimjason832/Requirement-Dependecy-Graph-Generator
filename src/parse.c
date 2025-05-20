@@ -1,4 +1,4 @@
-#include "parse.h"
+#include "../include/parse.h"
 
 void parseSRS(const char *filename){
     // stub for parseSRS function, will be implemented in the future
