@@ -1,7 +1,7 @@
 # Requirement-Dependecy-Graph-Generator
 
 ## Overview
-    This program parses a given markdown file of an SRS to generate a requirement dependency graph and create a report of the requirement dependency graph. The requirement dependency graph shows the relationship between different requirements, where a parent requirement will branch out to a single or multiple child requirements. The requirement depdendency graph will be printed as a tree format starting with the highest requirement and continuously branching into its child requirements.
+    This program parses a given markdown file of an SRS to generate a requirement dependency graph and create a report of the requirement dependency graph. The requirement dependency graph shows the relationship between different requirements, where a parent requirement will branch out to a single or multiple child requirements. The requirement depdendency graph will be printed as a tree format starting with the highest requirement and continuously branching into its child requirements. In order to build and run the project, the user can type "make main" to build the program and then "./main" to run the program. 
 
 ### Dependency
     The dependency module is used to create each moudle, or requirement of the SRS, and be linked together in a module list to show the relationships between different requirements as either a parent or a child. 
