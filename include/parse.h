@@ -1,8 +1,11 @@
 #ifndef PARSE_H
 #define PARSE_H
 
-#include "dependency.h"
 #include <stdio.h>
+#include <stdlib.h>
+#include <regex.h>
+#include "dependency.h"
+#include "file.h"
 
 // parses the SRS to get requirements and its relationship with other requirements
 void parseSRS(const char *filename);
